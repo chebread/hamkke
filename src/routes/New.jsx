@@ -79,7 +79,7 @@ const New = () => {
       keyCode,
       target: { value },
     } = e;
-    console.log(e.target.value);
+    // console.log(e.target.value);
     if (keyCode === 13) {
       setComment(value);
       setIsAddedComment(true);
